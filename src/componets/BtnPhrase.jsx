@@ -57,7 +57,7 @@ const BtnPhrase = ({ setprhaseSelected, setBgSelected, prhaseSelected }) => {
     return (
         <div className="btn-container">
              {showOpenButton && (
-                <button className="btn-open" onClick={handleChangePhrase}>Abrir Otra</button>
+                <button className="btn-open" onClick={handleChangePhrase}>Abrir Galleta</button>
             )}
             {showAnotherButton && (
                 <button  className="btn-another" onClick={handleAnotherCookie}>Otra Galleta</button>
