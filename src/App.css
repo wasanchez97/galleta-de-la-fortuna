@@ -1,0 +1,20 @@
+
+.tittle{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 30px;
+    font-size: 50px;
+    color: rgb(240, 233, 157);
+}
+.btn-container {
+    text-align: center; /* Centra los botones horizontalmente */
+    
+
+}
+.full-container{
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}

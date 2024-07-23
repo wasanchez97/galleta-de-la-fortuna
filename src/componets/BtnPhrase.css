@@ -1,0 +1,109 @@
+.images-container {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+    width: 100%;
+    height: 500px; /* Ajusta según el tamaño deseado */
+    overflow: hidden;
+    position: relative;
+    transition: opacity 2s;
+}
+
+.image {
+    min-width: 100px;
+    max-width: 300px;/* Ajusta según el tamaño deseado */
+    transition: transform 2s, opacity 2s;
+}
+
+
+
+.images-container.animate .image1 {
+    transform: translate(-150%);
+    opacity: 0;
+}
+
+.images-container.animate .image2 {
+    transform: translate(150%);
+    opacity: 0;
+}
+
+.phrase-container {
+    opacity: 0;
+    background-color: white;
+    transition: opacity 1s;
+    border-top-left-radius: 80px 40px;
+    border-bottom-right-radius: 80px 40px;
+    text-align: center;
+    font-size: 18px;
+    margin: 10%;
+    padding: 40px;
+    height: 300px; /* Ajusta para que coincida con la altura de las imágenes */
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.author{
+    margin: 25px;
+    
+}
+
+.phrase-container.show {
+    opacity: 1;
+}
+
+.phrase-container.hide {
+    opacity: 0;
+
+}
+.button1{
+    padding: 30px;
+    
+}
+.btn-container{
+    
+    justify-content: center;
+    text-align: center; /* Centra los botones horizontalmente */
+    margin: 20px; /* Espacio alrededor de los botones */
+    position: relative;
+}
+.btn-open{
+    padding: 20px;
+    background-color: red;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+    font-size: 25px;
+}
+  
+  
+    
+
+
+.btn-open:hover{
+    transform: scale(1.4);
+}
+
+.btn-another{
+    padding: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+    font-size: 25px;
+    
+}
+
+.btn-another:hover{
+    transform: scale(1.4);
+}
