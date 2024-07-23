@@ -34,7 +34,7 @@
     border-top-left-radius: 80px 40px;
     border-bottom-right-radius: 80px 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     margin: 10%;
     padding: 40px;
     height: 300px; /* Ajusta para que coincida con la altura de las imágenes */
@@ -106,4 +106,8 @@
 
 .btn-another:hover{
     transform: scale(1.4);
+}
+.author{
+    font-size: 28px;
+    font-weight: 600;
 }
