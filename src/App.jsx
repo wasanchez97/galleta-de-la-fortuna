@@ -13,7 +13,7 @@ function App() {
 
 
 const objStyles = {
-  backgroundImage: `url(public/img/fondo${bgSelected}.jpg)`,
+  backgroundImage: `url(img/fondo${bgSelected}.jpg)`,
 };
  
 return (
