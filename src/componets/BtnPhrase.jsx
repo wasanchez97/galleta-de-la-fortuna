@@ -15,7 +15,7 @@ const BtnPhrase = ({ setprhaseSelected, setBgSelected, prhaseSelected }) => {
 
     const handleChangePhrase = () => {
         // Reproducir el sonido
-        const audio = new Audio('/public/sounds/galletacrujiendo1.mp3');
+        const audio = new Audio('public/sounds/galletacrujiendo1.mp3');
         audio.play();
 
         // Iniciar la animación
