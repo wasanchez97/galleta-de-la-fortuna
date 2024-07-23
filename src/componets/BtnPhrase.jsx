@@ -64,8 +64,8 @@ const BtnPhrase = ({ setprhaseSelected, setBgSelected, prhaseSelected }) => {
             )}
             {showImages && (
                 <div className={`images-container ${animate ? 'animate' : ''}`}>
-                    <img src="img2/imagen1.png" alt="Imagen 1" className="image image1" />
-                    <img src="img2/image2.png" alt="Imagen 2" className="image image2" />
+                    <img src="public/img2/imagen1.png" alt="Imagen 1" className="image image1" />
+                    <img src="public/img2/image2.png" alt="Imagen 2" className="image image2" />
                 </div>
             )}
             <div className={`phrase-container ${showPhrase ? 'show' : 'hide'}`}>
