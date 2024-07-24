@@ -15,10 +15,10 @@ const BackgroundAudio = () => {
 
     playAudio();
 
-    // Intenta reproducir el audio nuevamente en caso de que el usuario interactúe
+    
     document.addEventListener('click', playAudio);
 
-    // Cleanup function to stop the audio when the component unmounts
+  
     return () => {
       audio.pause();
       audio.currentTime = 0;
@@ -26,7 +26,7 @@ const BackgroundAudio = () => {
     };
   }, []);
 
-  return null; // Este componente no renderiza nada visible
+  return null; 
 };
 
 export default BackgroundAudio;
