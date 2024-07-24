@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 const BackgroundAudio = () => {
   useEffect(() => {
-    const audio = new Audio('/public/sounds/BackGround.mp3.mp3');
+    const audio = new Audio('public/sounds/BackGround.mp3.mp3');
     audio.loop = true;
 
     const playAudio = async () => {
