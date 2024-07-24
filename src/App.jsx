@@ -19,6 +19,7 @@ const objStyles = {
  
 return (
   <div style={objStyles} className='full-container'>
+    <BackgroundAudio />
     <h1 className='tittle'>Galleta de la fortuna</h1>
     <article className='button'>
       <BtnPhrase
