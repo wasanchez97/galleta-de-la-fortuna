@@ -6,7 +6,9 @@
     font-style: normal;
     padding: 30px;
     font-size: 50px;
-    color: rgb(240, 233, 157);
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+}
 }
 .btn-container {
     text-align: center;
