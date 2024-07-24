@@ -4,7 +4,8 @@ import quotes from './data/phrases.json'
 import getRandomNumbers from './utils/getRandomNumbers';
 import Phrases from './componets/Phrases';
 import BtnPhrase from './componets/BtnPhrase';
-import photos from  './data/photos.json'
+import photos from  './data/photos.json';
+import BackgroundAudio from './componets/BackGroundAudio';
 
 function App() {
  const indexRandom =getRandomNumbers(quotes.length)
